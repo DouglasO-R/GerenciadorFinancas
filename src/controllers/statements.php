@@ -3,13 +3,14 @@
 use Psr\Http\Message\ServerRequestInterface;
 
 $app
-    ->get('/statements',function(ServerRequestInterface $request) use($app){
-        $view = $app->getService('view.render');
-        $repository = $app->getService('statement.repository');
-        $auth = $app->getService('auth');
-        $data = $request->getQueryParams();
+    ->get(
+        '/statements', function (ServerRequestInterface $request) use ($app) {
+            $view = $app->getService('view.render');
+            $repository = $app->getService('statement.repository');
+            $auth = $app->getService('auth');
+            $data = $request->getQueryParams();
         
-        $dateStart = $data['date_start'] ?? (new \DateTime())->modify('-1 month');
+            $dateStart = $data['date_start'] ?? (new \DateTime())->modify('-1 month');
             $dateStart = $dateStart instanceof \DateTime ? $dateStart->format('Y-m-d')
             : \DateTime::createFromFormat('d/m/Y', $dateStart)->format('Y-m-d');
 
@@ -19,8 +20,11 @@ $app
 
             $statements = $repository->all($dateStart, $dateEnd, $auth->user()->getId());    
          
-        return $view->render('statements.html.twig', [
-            'statements' => $statements
-        ]);
+            return $view->render(
+                'statements.html.twig', [
+                'statements' => $statements
+                ]
+            );
         
-    },'statements.list');   
+        }, 'statements.list'
+    );   

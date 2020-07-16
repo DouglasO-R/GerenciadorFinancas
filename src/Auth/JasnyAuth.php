@@ -21,13 +21,13 @@ class JasnyAuth extends \Jasny\Auth
    
     public function fetchUserById($id)
     {
-        return $this->repository->find($id,false);
+        return $this->repository->find($id, false);
     }
 
    
     public function fetchUserByUsername($username)
     {
-        return $this->repository->findByField('email' , $username)[0];
+        return $this->repository->findByField('email', $username)[0];
     }
     
 }

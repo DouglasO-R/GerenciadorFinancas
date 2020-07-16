@@ -23,7 +23,7 @@ class Auth implements AuthInterface
     public function login(array $credentials): bool
     {
         list('email' => $email, 'password' => $password) = $credentials;
-        return $this->JasnyAuth->login($email,$password) !== null;
+        return $this->JasnyAuth->login($email, $password) !== null;
     }
 
     public function check():bool
@@ -42,7 +42,7 @@ class Auth implements AuthInterface
 
     protected function sessionStart()
     {
-        if(session_status() == PHP_SESSION_NONE){
+        if(session_status() == PHP_SESSION_NONE) {
             session_start();
         }
     }

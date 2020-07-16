@@ -8,8 +8,8 @@ class DefaultRepository implements RepositoryInterface
     private $model;
 
     /**
-     * 
      * DefaultRepository construtor
+     *
      * @param string $modelClass
      */
     public function __construct(string $modelClass)

@@ -3,13 +3,14 @@
 use Psr\Http\Message\ServerRequestInterface;
 
 $app
-    ->get('/charts',function(ServerRequestInterface $request) use($app){
-        $view = $app->getService('view.render');
-        $repository = $app->getService('category-cost.repository');
-        $auth = $app->getService('auth');
-        $data = $request->getQueryParams();
+    ->get(
+        '/charts', function (ServerRequestInterface $request) use ($app) {
+            $view = $app->getService('view.render');
+            $repository = $app->getService('category-cost.repository');
+            $auth = $app->getService('auth');
+            $data = $request->getQueryParams();
         
-        $dateStart = $data['date_start'] ?? (new \DateTime())->modify('-1 month');
+            $dateStart = $data['date_start'] ?? (new \DateTime())->modify('-1 month');
             $dateStart = $dateStart instanceof \DateTime ? $dateStart->format('Y-m-d')
             : \DateTime::createFromFormat('d/m/Y', $dateStart)->format('Y-m-d');
 
@@ -19,8 +20,11 @@ $app
 
             $categories = $repository->sumByPeriod($dateStart, $dateEnd, $auth->user()->getId());    
          
-        return $view->render('charts.html.twig', [
-            'categories' => $categories
-        ]);
+            return $view->render(
+                'charts.html.twig', [
+                'categories' => $categories
+                ]
+            );
         
-    },'charts.list');   
+        }, 'charts.list'
+    );   

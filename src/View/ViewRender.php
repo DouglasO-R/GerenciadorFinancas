@@ -15,7 +15,7 @@ class ViewRender implements ViewRenderInterface
     }
     public function render(string $template, array $context = []): ResponseInterface
     {
-        $result = $this->twigEnviroment->render($template,$context);
+        $result = $this->twigEnviroment->render($template, $context);
         $response = new Response();
         $response->getBody()->write($result);
         return $response;
