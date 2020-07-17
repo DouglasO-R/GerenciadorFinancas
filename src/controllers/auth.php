@@ -36,6 +36,7 @@ $app->before(
         'auth.show_login_form',
         'auth.login',
         'users.new',
+        'users.store',
         'index'        
         ];
         if(!in_array($route->name, $routeWhiteList) && !$auth->check()) {
