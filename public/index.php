@@ -24,6 +24,13 @@ $app->plugin(new ViewPlugin());
 $app->plugin(new DbPlugin());
 $app->plugin(new AuthPlugin());
 
+$app->get(
+    '/', function () use ($app) {
+        $view = $app->getService('view.render');
+        return $view->render('index.html.twig');
+    }, 'index'
+);
+
 require_once __DIR__ . '/../src/controllers/statements.php';
 require_once __DIR__ . '/../src/controllers/charts.php';
 require_once __DIR__ . '/../src/controllers/category-costs.php';
