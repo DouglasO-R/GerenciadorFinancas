@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "a6ff3145dbb08f9fefc5d0dde1bb6934",
-    "content-hash": "0036e8246b86a486191a47fc3d75bcad",
+    "content-hash": "0f26eb7bdd0117ab46e844dbe03b8b8b",
     "packages": [
         {
             "name": "aura/router",
@@ -54,7 +53,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2017-03-02 16:34:47"
+            "time": "2017-03-02T16:34:47+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -86,7 +85,7 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "abandoned": "psr/container",
-            "time": "2017-02-14 19:40:03"
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -153,7 +152,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2019-10-30 19:59:35"
+            "time": "2019-10-30T19:59:35+00:00"
         },
         {
             "name": "illuminate/container",
@@ -196,7 +195,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2017-05-24 14:15:53"
+            "time": "2017-05-24T14:15:53+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -238,7 +237,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2017-08-26 23:56:53"
+            "time": "2017-08-26T23:56:53+00:00"
         },
         {
             "name": "illuminate/database",
@@ -298,7 +297,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2017-02-22 14:16:49"
+            "time": "2017-02-22T14:16:49+00:00"
         },
         {
             "name": "illuminate/support",
@@ -355,7 +354,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2017-08-15 13:25:41"
+            "time": "2017-08-15T13:25:41+00:00"
         },
         {
             "name": "jasny/auth",
@@ -404,7 +403,7 @@
             "keywords": [
                 "auth"
             ],
-            "time": "2016-12-28 23:01:51"
+            "time": "2016-12-28T23:01:51+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -452,7 +451,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-05-18 15:26:18"
+            "time": "2018-05-18T15:26:18+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -501,7 +500,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2019-01-03 20:59:08"
+            "time": "2019-01-03T20:59:08+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -551,7 +550,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2018-01-21 07:42:36"
+            "time": "2018-01-21T07:42:36+00:00"
         },
         {
             "name": "psr/container",
@@ -600,7 +599,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14 16:28:37"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -650,7 +649,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -697,7 +696,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-11-01 11:05:21"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "robmorgan/phinx",
@@ -763,7 +762,7 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2017-02-19 12:16:03"
+            "time": "2017-02-19T12:16:03+00:00"
         },
         {
             "name": "symfony/config",
@@ -827,7 +826,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04 12:05:51"
+            "time": "2020-01-04T12:05:51+00:00"
         },
         {
             "name": "symfony/console",
@@ -899,7 +898,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-10 07:52:48"
+            "time": "2020-01-10T07:52:48+00:00"
         },
         {
             "name": "symfony/debug",
@@ -955,7 +954,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-25 12:44:29"
+            "time": "2020-01-25T12:44:29+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1005,24 +1004,27 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-21 08:20:44"
+            "time": "2020-01-21T08:20:44+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-ctype": "*"
             },
             "suggest": {
                 "ext-ctype": "For best performance"
@@ -1030,16 +1032,20 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-main": "1.26-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1063,7 +1069,24 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-11-27 13:56:44"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1122,7 +1145,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-11-27 14:18:11"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1198,7 +1221,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-15 13:29:06"
+            "time": "2020-01-15T13:29:06+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -1255,7 +1278,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-09-17 11:12:18"
+            "time": "2019-09-17T11:12:18+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1314,39 +1337,42 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-13 08:00:59"
+            "time": "2020-01-13T08:00:59+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v1.33.0",
+            "version": "v1.44.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a"
+                "reference": "0887422319889e442458e48e2f3d9add1a172ad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a",
-                "reference": "05cf49921b13f6f01d3cfdf9018cfa7a8086fd5a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0887422319889e442458e48e2f3d9add1a172ad5",
+                "reference": "0887422319889e442458e48e2f3d9add1a172ad5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.7"
+                "php": ">=7.2.5",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.3@dev"
+                "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.33-dev"
+                    "dev-master": "1.44-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
                     "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1361,22 +1387,35 @@
                     "role": "Lead Developer"
                 },
                 {
+                    "name": "Twig Team",
+                    "role": "Contributors"
+                },
+                {
                     "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
-                },
-                {
-                    "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
-                    "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2017-03-22 15:40:09"
+            "support": {
+                "issues": "https://github.com/twigphp/Twig/issues",
+                "source": "https://github.com/twigphp/Twig/tree/v1.44.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-09-28T08:38:36+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1426,7 +1465,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "xtreamwayz/pimple-container-interop",
@@ -1473,7 +1512,7 @@
                 "pimple"
             ],
             "abandoned": true,
-            "time": "2015-12-16 17:30:52"
+            "time": "2015-12-16T17:30:52+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -1524,7 +1563,7 @@
                 "psr-7"
             ],
             "abandoned": "laminas/laminas-diactoros",
-            "time": "2017-01-23 04:53:24"
+            "time": "2017-01-23T04:53:24+00:00"
         }
     ],
     "packages-dev": [
@@ -1574,7 +1613,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29 12:21:54"
+            "time": "2016-04-29T12:21:54+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1625,7 +1664,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-04-17 01:09:41"
+            "time": "2020-04-17T01:09:41+00:00"
         }
     ],
     "aliases": [],
@@ -1634,5 +1673,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
